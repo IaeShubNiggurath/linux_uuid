@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# RETURN A UUID
-
 #                    #
 ## kurz.andi@gmx.ch ##
 #                    #
@@ -14,4 +12,4 @@ function UUID(){
 
 UUID
 
-# ENDE !! 
+# - EOF
