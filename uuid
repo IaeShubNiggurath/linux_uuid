@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# RETURN A UUID
+
+#                    #
+## kurz.andi@gmx.ch ##
+#                    #
+
+
+function UUID(){
+    uuid=$( cat /proc/sys/kernel/random/uuid )
+    echo $uuid
+}
+
+UUID
+
+# ENDE !! 
